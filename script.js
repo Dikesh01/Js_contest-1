@@ -14,6 +14,7 @@ function PrintStudentswithMap() {
     }
   });
 }
+PrintStudentswithMap();
 
 function PrintStudentsbyForEach() {
   //Write your code here , just console.log
@@ -23,6 +24,7 @@ function PrintStudentsbyForEach() {
     }
   });
 }
+PrintStudentsbyForEach();
 
 function addData() {
   //Write your code here, just console.log
@@ -30,12 +32,14 @@ function addData() {
   arr.push(newStudent);
   console.log(arr);
 }
+addData();
 
 function removeFailedStudent() {
   //Write your code here, just console.log
  let failed_Students = arr.filter((student) => student.marks < 50)
  console.log(failed_Students);
 }
+removeFailedStudent();
 
 function concatenateArray() {
   //Write your code here, just console.log
@@ -46,5 +50,6 @@ function concatenateArray() {
   ];
 
   let concatenatedArr = arr.concat(new_Arr);
+  concatenateArray()
   console.log(concatenatedArr);
 }
